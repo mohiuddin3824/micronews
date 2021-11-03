@@ -1,0 +1,37 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+	.responsive_columns {display: flex;margin-top: 10px;}
+	.lead_post{height: 260px;}
+	.lead_post h2 {bottom: -3%;	font-size: 21px; padding: 0px 13px;	}
+	.library_section_title_responsive{display: flex;}
+	.library_section_title_responsive .section_read_more {margin-left: 75px;}
+	.top_footer .responsive_class {margin-bottom: 82px;	}
+	.mobile_components {display: block; border: 1px solid #ccc;	}
+	.mobile_components .write_text {font-size: 22px;}
+	.dark_light_colum, .login_colum, .write_colum {	display: none;}
+	.dark_light, .login {border-right: none;font-size: 24px;}
+	.write_here{margin-top: 10px;}
+	.writer_pic{margin-top: -52px;}
+	.writer_img {float: none;margin: 0 auto;}
+	.writer_articles{color: black; font-size: medium;}
+	.contribute .section_header h2{font-size: 30px!important;}
+	.contribute .section_slogan p{font-size: 21px!important;}
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+	.mobile_components {display: none !important;}
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; } 
+	.mobile_components {display: none !important;}
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+	.mobile_components {display: none !important;}
+ } 
